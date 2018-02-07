@@ -1,0 +1,27 @@
+@charset "UTF-8";
+html, body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.fa_outer {
+  background-color: #00f;
+  position: absolute;
+  width: 1280px;
+  height: 960px;
+}
+
+.fa_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #ff0;
+}
+
+.fa_mast_view {
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: #f00;
+  width: 960px;
+  height: 640px;
+}
