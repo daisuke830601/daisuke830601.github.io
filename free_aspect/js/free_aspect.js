@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) 2018 Daisuke Inoue
+ * Released under the MIT license
+ **/
+
 var screenWidth = window.innerWidth;
 var screenHeight = window.innerHeight;
 var resize = function(defaultWidth=960, defaultHeight=640) {
